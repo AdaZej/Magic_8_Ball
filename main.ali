@@ -1,0 +1,115 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		17856621 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W system%s		system.ads		system.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20180524051736 bb51c45a ada.numerics%s
+D a-nudira.ads		20180524051736 71e55def ada.numerics.discrete_random%s
+D a-nudira.adb		20180524051736 72908cdb ada.numerics.discrete_random%b
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-string.ads		20180524051736 90ac6797 ada.strings%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D main.adb		20190210021852 7ed1ef03 main%b
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-imguns.ads		20180524051736 9ff43cf7 system.img_uns%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-rannum.ads		20180524051736 99ade2f2 system.random_numbers%s
+D s-rannum.adb		20180524051738 20ba1217 system.random_numbers%b
+D s-ransee.ads		20180524051738 01a57b33 system.random_seed%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-valuns.ads		20180524051738 10a8ed3b system.val_uns%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|17r6 17r24 18r6 18r23 19r6 47r33
+X 4 a-numeri.ads
+16K13*Numerics 32e17 14|19r10 47r37
+X 5 a-nudira.ads
+44k22*Discrete_Random 75e33 14|19w19 47r46
+50R9 Generator<22|63R9> 14|49r8[47]
+52V13 Random{14|27E9} 14|66s15[47]
+55U14 Reset<22|100p14> 14|53s4[47]
+X 6 a-nudira.adb
+53V16 Random[22|83]{14|27E9} 23|392b13[14|47]
+X 8 a-string.ads
+16K13*Strings 35e16 14|18w10 18r27
+X 10 a-textio.ads
+49K13*Text_IO 471e16 14|17w10 17r28
+166U14*New_Line 14|56s27 59s4 62s4
+240U14*Get 14|61s4
+240a19 Item{string} 14|61r9
+242U14*Put 14|67s4
+263U14*Put_Line 14|56s4 58s4 60s4
+X 12 interfac.ads
+74M9*Unsigned_32
+77M9*Unsigned_64
+X 14 main.adb
+22U11*Main 22b11 70l5 70t9
+27E9 Possible_Answers_Type 33e70 39r23 39r48 47r63
+27n35 It_Is_Certain{27E9}
+27n50 It_Is_Decidedly_So{27E9}
+27n70 Without_A_Doubt{27E9}
+28n35 Yes_Definitely{27E9}
+28n51 You_May_Rely_On_It{27E9}
+28n71 As_I_See_It{27E9}
+28n84 Yes_Most_Likely{27E9}
+29n35 Outlook_Good{27E9}
+29n49 Signs_Point_To_Yes{27E9}
+29n69 Yes_Reply_Hazy{27E9}
+30n35 Try_Again{27E9}
+30n46 Ask_Again_Later{27E9}
+30n63 Better_Not_Tell_You_Now{27E9}
+31n35 Cannot_Predict_Now{27E9}
+31n55 Concentrate_And_Ask_Again{27E9}
+32n35 Dont_Bet_On_It{27E9}
+32n51 My_Reply_Is_No{27E9}
+32n67 My_Sources_Say_No{27E9}
+33n35 Outlook_Not_So_Good{27E9}
+33n56 Very_Doubtful{27E9}
+39e4 Answer{27E9} 66m4 67r9
+40a4 User_Question{string} 61m17
+47K12 Random_Answer[5|44] 48r8
+49r4 G{5|50R9[47]} 53r11 66r23
+X 22 s-rannum.ads
+75V13*Random{12|74M9} 23|221i21
+76V13*Random{12|77M9} 23|221i21
+
